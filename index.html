@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+
+    <div class="flex">
+        <h1>Let ' s play Rock , Paper , Scissors ! Pew Pew !</h1>
+        <h2>Choose your weapon !</h2>
+
+
+        <div class="buttons">
+            <button id="rock">Rock<img src="/images/cave-painting (1).png" alt="Stone/Rock"></button>
+            <button id="paper">Paper<img src="/images/paper.png" alt="Paper"></button>
+            <button id="scissors">Scissors<img src="/images/scissors-opened-tool-shape.png" alt="Scissors"></button>
+        </div>
+
+        <div class="labels">
+            <span id="playerLabel">Player Score</span>
+            <span id="botLabel">Bot Score</span>
+        </div>
+
+        <div class="scores">
+            <div id="playerScore"></div>
+            <div id="botScore"></div>
+        </div>
+
+        <div><span id="result">Results:</span></div>
+
+        <div id="roundScore"></div>
+
+        <div>
+            <button id="resetBtn">Play Again!</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

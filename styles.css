@@ -1,0 +1,113 @@
+body{
+    background:brown;
+    font-family: "Permanent Marker",sans-serif;
+}
+
+.flex{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 15px;
+}
+
+/*headings*/
+h1{
+    font-size: 35px;  
+}
+h2{
+    font-size: 25px;
+}
+h1,h2{
+    color:white;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 0 0 4px black, 0 0 4px black,0 0 4px black;
+}
+/*labels*/
+#playerLabel{
+    padding-left: 72px;
+    padding-right: 45px;
+}
+#botLabel{
+    padding-left: 0px;
+    padding-right: 100px;
+}
+#playerLabel,#botLabel,#result{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 4px black, 0 0 4px black,0 0 4px black;
+    
+    ;
+}
+/*P1/Bot scores + the final Results*/
+#roundScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 60px;
+    border: 5px solid black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    }
+    
+    .scores {
+        display: flex;
+        flex-direction: row;
+    }
+    .scores div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 50px;
+        border: 5px solid black;
+        margin-top: 3px;
+        margin-bottom: 20px;
+        margin-right: 5px; 
+        font-weight: bolder;
+        font-size: 25px;    
+    }
+    /*buttons*/
+    .buttons button {
+        border: 4px solid black;
+        width: 180px;
+        height: 200px;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(23, 23, 27);
+        margin-bottom: 30px;
+      }
+      .buttons button{
+        border-color: black ;
+      }
+      .buttons button:hover{
+        cursor:pointer;
+        transform: scale(1.1);
+        box-shadow: 0 0 20px 1px black;
+      }
+
+    /*reset button*/
+    #resetBtn {
+        width: 150px;
+        height: 65px;
+        margin-top: 20px;
+        background-color: brown;
+        color: white; 
+        border:4px solid black;
+        font-size: 20px;
+        font-family:"Permanent Marker";
+    }
+    #resetBtn:hover{
+        cursor: pointer;
+        color: black;
+    }
+
+
